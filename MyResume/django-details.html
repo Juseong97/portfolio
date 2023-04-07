@@ -26,14 +26,18 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: MyResume
-  * Updated: Mar 10 2023 with Bootstrap v5.2.3
-  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <style>
+    main{
+      font-family: 나눔고딕;
+    }
+    .textconfig{
+      display: flex;
+      justify-content : center;
+    }
+    li{
+      padding-bottom: 6px;
+    }
+  </style>
 </head>
 
 <body>
@@ -50,7 +54,7 @@
             <div class="portfolio-details-slider swiper">
               <div class="swiper-wrapper align-items-center">
                 <div>
-                  <img src="assets/img/포폴%20사진/djangoprj.gif" width="736px" height="355px"/>
+                  <img src="assets/img/포폴%20사진/main.gif" width="800px" height="300px"/>
                 </div>
 
               </div>
@@ -62,31 +66,99 @@
             <div class="portfolio-info">
               <h3>Project information</h3>
               <ul>
-                <li><strong>프로젝트: </strong>: Web design</li>
-                <li><strong>구성원: </strong>: ASU Company</li>
-                <li><strong>Project date</strong>: 01 March, 2020</li>
-                <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+                <li><strong>프로젝트 명 </strong>: 로봇 모니터링 시스템</li>
+                <li><strong>팀 구성원 </strong>: 백엔드 1명, 프론트 3명, 머신러닝 1명 </li>
+                <li><strong>프로젝트 진행 기간</strong>: 2023.1.16~2023.2.3</li>
+                <li><strong>Project URL</strong>: <a href="https://port-0-do-it-django-a-to-z-a4y62alg082qgw.sel3.cloudtype.app/home/" target="_blank">Django 로봇 모니터링 시스템</a></li>
+                <li></li>
+                <li class="textconfig"><i class="bi-github" style="padding-right: 10px"></i><h5><strong><a href="https://github.com/Juseong97/DjangoEcuzo" target="_blank">Github 주소</a></strong></h5></li>
               </ul>
             </div>
             <br/>
             <br/>
             </div>
-          <div class="col-lg-6">
 
-            <h2>This is an example of portfolio detail</h2>
-            <p>
-             내용
-            </p>
+          <div class="row" style="position: relative">
+            <hr/>
+            <div class="col-lg-6">
+              <img src="assets/img/포폴%20사진/main.gif" width="600" height="350">
+              <strong class="textconfig" style="text-align: center">Main page</strong>
+            </div>
 
+            <div class="col-lg-6">
+              <img src="assets/img/포폴%20사진/01_e.png" width="600" height="350">
+              <strong class="textconfig">사용 기술</strong>
+            </div>
+
+            <div class="col-lg-6" >
+            <img src="assets/img/포폴%20사진/edit%20페이지.PNG" width="600" height="350">
+            <p><strong class="textconfig">Edit Page</strong></p>
+            </div>
+
+            <div class="col-lg-6">
+              <img src="assets/img/포폴%20사진/result%20페이지.PNG" width="600" height="350">
+              <strong class="textconfig">Result page</strong>
+            </div>
+
+            <div class="col-lg-6">
+              <img src="assets/img/포폴%20사진/detail%20페이지.PNG" width="600" height="350">
+              <strong class="textconfig">Detail page</strong>
+            </div>
+
+            <div class="col-lg-6">
+              <img src="assets/img/포폴%20사진/ezgif.com-video-to-gif.gif" width="600" height="350">
+              <strong class="textconfig">Update page</strong>
+              </br>
+            </div>
+            <hr/>
+            <div class="col-lg-12" >
+              <h3><strong>📙 요약</strong></h3>
+              <ul>
+                <li>오모로봇에서 제작한 r1mini 제품의 상태를 모니터링 하는 서비스와 제품 홍보를 제공하는 웹페이지를 제작하였습니다. </li>
+                <li >r1mini 배터리 잔량, LED 색상, 엔코더 회전수 실황 모니터링을 확인 할 수 있습니다.</li>
+              </ul>
+            </div>
+            <div class="col-lg-6 ">
+              <h3>🛠️<strong> 사용 기술 및 라이브러리</strong></h3>
+              <ul>
+                <li><strong>백엔드 프레임워크</strong>: 장고</li>
+                <li><strong>데이터 베이스</strong>: SQLite</li>
+                <li><strong>개발 언어</strong>: 파이썬</li>
+                <li><strong>프론트엔드 프레임워크</strong>: html5, css3, 자바스크립트</li>
+                <li><strong>협업</strong>: 디스코드</li>
+                <li><strong>버전관리</strong>: 깃허브</string></li>
+                <li><strong>배포</strong>: 클라우드타입</string></li>
+                <li><strong>etc</strong>: 부트스트랩</li>
+              </ul>
+            </div>
+            <div class="col-lg-6">
+              <h3><strong>🖥 담당 업무</strong></h3>
+              <ul>
+                <li>서비스 기획 및 프로젝트 매니저 역할 수행</li>
+                <li>백엔드 개발</li>
+                <ul>
+                  <li>MTV 방식의 설계구현</li>
+                  <li>데이터 구조 설계 및 구현</li>
+                  <li>CRUD 구현</li>
+                  <li>Cloudtype을 이용한 배포</li>
+                </ul>
+                <li>프론트엔드 개발</li>
+                <ul>
+                  <li>Ajax를 이용한 데이터 통신 구현</li>
+                  <li>Update page 애니메이션 구현</li>
+                </ul>
+              </ul>
+            </div>
           </div>
 
-          <div class="col-lg-6">
-            <h2>This is an example of portfolio detail</h2>
-            <p>
-              내용
-            </p>
-          </div>
-          <div class="col-lg-6"></div>
+
+<!--          <div class="col-lg-6">-->
+<!--            <h3><strong>📒개선할 부분</strong></h3>-->
+<!--            <ul>-->
+<!--              <li></li>-->
+<!--            </ul>-->
+
+<!--          </div>-->
 
         </div>
 
